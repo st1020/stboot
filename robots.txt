@@ -1,0 +1,10 @@
+# robots.txt for http://www.stboot.com
+# 2019/3/16
+
+User-agent: *
+
+Disallow: /js/
+Disallow: /img/
+Disallow: /fonts/
+Disallow: /doc/
+Disallow: /css/
