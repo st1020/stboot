@@ -2,6 +2,24 @@
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
+		
+		<meta http-equiv="refresh" content="5;url=https://pan.baidu.com/s/1pYBQ1c_LMBR7y2F0H4GMhg">
+		<script type="text/javascript">
+			window.onload = function () {
+				var i = 4;
+				var tim = document.getElementById("timers");
+				var timer = setInterval(function () {
+					if (i == -1) {
+						clearInterval(timer);
+					} else {
+						tim.innerHTML = i;
+						--i;
+					}
+				}, 1000);
+	 
+			}
+		</script>
+
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>St启动维护工具箱 - 简单纯净强大的启动维护工具箱</title>
 		
@@ -105,7 +123,8 @@
 									<img src="img/success.png" alt="#">
 									<h2><span><img src="img/tic.png" alt="#"></span>感谢您的下载！</h2>
 									<h2>Thanks For Your Downloading!</h2>
-									<h2>请前往 <a href="help.html">说明</a> 以了解更多</h2>
+									<br /> 
+									<h4>您将在 <span class="timeShow" id="timers">5</span> 秒内被重定向到下载地址。如果没有成功跳转请点击 <a href="https://pan.baidu.com/s/1pYBQ1c_LMBR7y2F0H4GMhg">下载</a> 。</h4>
 									<div class="button-head">
 										<div class="button">
 											<span></span>
